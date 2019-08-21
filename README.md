@@ -2,4 +2,4 @@
 
 1. [Linux](https://github.com/zswordsman/note/tree/master/Linux)
 2. [Nginx](https://github.com/zswordsman/note/tree/master/Nginx)
- 
+3. [数据结构和算法](https://github.com/zswordsman/note/tree/master/数据结构和算法)
