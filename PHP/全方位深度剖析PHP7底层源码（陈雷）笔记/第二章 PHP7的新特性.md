@@ -10,7 +10,7 @@
         安装之后 主要关注 **bin sbin**目录
     * zend目录下 有 bench.php、micro_bench.php 可以 基准测试 来比较php7与php5的性能差距。
 2. PHP7的新特性
-   * 标量 和 返回值类型声明    
+* 标量 和 返回值类型声明    
 ```php
 function arraysSum(array ...$arrays): array
 {
