@@ -10,7 +10,7 @@
         安装之后 主要关注 **bin sbin**目录
     * zend目录下 有 bench.php、micro_bench.php 可以 基准测试 来比较php7与php5的性能差距。
 2. PHP7的新特性
-    * 标量 和 返回值类型声明  
+   * 标量 和 返回值类型声明    
 ```php
 function arraysSum(array ...$arrays): array
 {
@@ -19,15 +19,14 @@ function arraysSum(array ...$arrays): array
     }, $arrays);
 }
 ``` 
-
-    * null合并运算符 
+  * null合并运算符 
     如果变量存在且值不为NULL， 它就会返回自身的值，否则返回它的第二个操作数。
 ```php
 $username = $_GET['user'] ?? 'nobody';
 // This is equivalent to:
 $username = isset($_GET['user']) ? $_GET['user'] : 'nobody';
 ```
-    * 太空船操作符（组合比较符）
+   * 太空船操作符（组合比较符） 
 ```php
     // 整数
     echo 1 <=> 1; // 0
@@ -42,9 +41,8 @@ $username = isset($_GET['user']) ? $_GET['user'] : 'nobody';
     echo "a" <=> "b"; // -1
     echo "b" <=> "a"; // 1
 ```
-    * 通过 define() 定义常量数组
-    
-    * 为unserialize()提供过滤
+   * 通过 define() 定义常量数组 
+   * 为unserialize()提供过滤
 ```php
 // 将所有的对象都转换为 __PHP_Incomplete_Class 对象
 $data = unserialize($foo, ["allowed_classes" => false]);
