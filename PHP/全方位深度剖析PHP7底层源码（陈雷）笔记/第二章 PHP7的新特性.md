@@ -1,14 +1,14 @@
 # 第二章 PHP7的新特性
 
 1. PHP7的编译和安装
-    * .configure (主要的几项）
-        *  --prefix  制定安装目录
-        *  --enable-fpm 编译安装php-fpm
-        *  --enable-debug 开启debug
-    * make && make install
-        安装之前 解压之后 主要关注几个文件夹  **zend ext sapi** 
-        安装之后 主要关注 **bin sbin**目录
-    * zend目录下 有 bench.php、micro_bench.php 可以 基准测试 来比较php7与php5的性能差距。
+ * .configure (主要的几项）
+     *  --prefix  制定安装目录
+     *  --enable-fpm 编译安装php-fpm
+     *  --enable-debug 开启debug
+ * make && make install
+     安装之前 解压之后 主要关注几个文件夹  **zend ext sapi** 
+     安装之后 主要关注 **bin sbin**目录
+ * zend目录下 有 bench.php、micro_bench.php 可以 基准测试 来比较php7与php5的性能差距。
 2. PHP7的新特性
 * 标量 和 返回值类型声明    
 ```php
